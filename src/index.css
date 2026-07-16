@@ -55,7 +55,7 @@
 body {
   margin: 0;
 }
-
+/* TODO: El navbar debe ocupar el 100%*/
 #root {
   width: 1126px;
   max-width: 100%;

@@ -19,11 +19,12 @@ const user = {
 }
 
 const navigation = [
-  { name: 'Home', href: '/',  current: false  },
-  { name: 'Projects', href: '/projects',  current: false  },
-  { name: 'Experience', href: '/experience',  current: false  },
-  { name: 'About', href: '/about',  current: false },
-  { name: 'Contact', href: '/contact' ,  current: false },
+  { name: "Home", href: "/#hero", current: false},
+  { name: "Portfolio", href: "/#projects", current: false},
+  { name: "Skills", href: "/#skills", current: false},
+  { name: "About", href: "/#about", current: false},
+  { name: "Experience", href: "/#experience", current: false},
+  { name: "Contact", href: "/#contact", current: false},
 ]
 
 function classNames(...classes) {
@@ -37,6 +38,7 @@ export function Navbar() {
             <div className="flex h-16 items-center justify-between">
               <div className="flex items-center">
                 <div className="shrink-0">
+                  {/* TODO: hacer y poner mi logo*/}
                   <img
                     alt="Your Company"
                     src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"

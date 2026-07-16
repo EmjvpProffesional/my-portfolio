@@ -1,6 +1,5 @@
 /*
-.counte
-r {
+.counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -19,7 +18,7 @@ r {
   }
 }
 
-.hero {
+.hero{
   position: relative;
 
   .base,
@@ -183,4 +182,5 @@ r {
     right: 0;
     border-right-color: var(--border);
   }
-}*/
+}
+*/

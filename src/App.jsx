@@ -1,27 +1,36 @@
 import { useState } from 'react'
-import { Home } from './pages/Home';
-import { Projects } from './pages/Projects';
+import { Home } from './pages/Home/Home';
+import { Projects } from './pages/Home/sections/Projects';
 import { Routes, Route } from "react-router";
 import { MainLayout } from './Layouts/MainLayout';
-import { Experience } from './pages/Experience';
-import { Contact } from './pages/Contact';
-import { About } from './pages/About';
+import { Experience } from './pages/Home/sections/Experience';
+import { Contact } from './pages/Home/sections/Contact';
+import { About } from './pages/Home/sections/About';
 
 function App() {
 
-  return (
+  return (            
     <Routes>
-      <Route element={<MainLayout />}>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/experience" element={<Experience />} />
-        <Route path="/contact" element={<Contact />} />
-      </Route>
-      
+        <Route element={<MainLayout />}>
+
+            <Route
+                path="/"
+                element={<Home />}
+            />
+            {/*
+            <Route
+                path="/portfolio"
+                element={<Portfolio />}
+            />
+
+            <Route
+                path="/portfolio/:slug"
+                element={<ProjectDetails />}
+            />*/}
+
+        </Route>
+
     </Routes>
-        
-  
   );
 
 }

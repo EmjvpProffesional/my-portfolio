@@ -6,12 +6,16 @@ export function MainLayout() {
     <>
       <Navbar />
 
-      <div className="min-h-full">
+      <main>
 
-        <main>
-            <Outlet />
-        </main>
-      </div>
+          <Outlet />
+
+      </main>
+
+      {/* 
+        TODO: crear componente footer.
+      <Footer /> */}
+
     </>
   );
 }
