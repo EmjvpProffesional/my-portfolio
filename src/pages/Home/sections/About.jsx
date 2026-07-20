@@ -1,5 +1,7 @@
 export function About() {
-    return (<p>
-        About component!
-    </p>)
+    return (
+        <section id="about" className="min-h-screen flex items-center">
+            About component!
+        </section>
+    );
 }

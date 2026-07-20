@@ -1,5 +1,7 @@
 export function Contact() {
     return (
-        <p>Contact component</p>
+        <section id="contact" className="min-h-screen flex items-center">
+            Contact section 
+        </section>
     );
 }

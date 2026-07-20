@@ -23,10 +23,9 @@ export function Home() {
       */}
         <Hero />
         <Skills />
-        {/*
         <About />
         <Experience />
-        <Contact /> */}
+        <Contact />
     </>
   )
 }

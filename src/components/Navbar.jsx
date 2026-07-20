@@ -20,11 +20,11 @@ const user = {
 
 const navigation = [
   { name: "Home", href: "/#hero", current: false},
-  { name: "Portfolio", href: "/#projects", current: false},
   { name: "Skills", href: "/#skills", current: false},
   { name: "About", href: "/#about", current: false},
   { name: "Experience", href: "/#experience", current: false},
   { name: "Contact", href: "/#contact", current: false},
+  { name: "Portfolio", href: "/portfolio", current: false},
 ]
 
 function classNames(...classes) {
@@ -32,7 +32,10 @@ function classNames(...classes) {
 }
 
 export function Navbar() {
+
+  // TODO: hacer que el nabvar ocupe todo el ancho de la pantalla
     return (
+      <header className="sticky top-0 z-50 w-full bg-slate-950/80 backdrop-blur">
         <Disclosure as="nav" className="bg-gray-800/50">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="flex h-16 items-center justify-between">
@@ -96,5 +99,6 @@ export function Navbar() {
             </div>
           </DisclosurePanel>
         </Disclosure>
+      </header>
     );
 }

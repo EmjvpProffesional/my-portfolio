@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Home } from './pages/Home/Home';
-import { Projects } from './pages/Home/sections/Projects';
+import { Portfolio } from './pages/Home/sections/Portfolio';
 import { Routes, Route } from "react-router";
 import { MainLayout } from './Layouts/MainLayout';
 import { Experience } from './pages/Home/sections/Experience';
@@ -17,17 +17,17 @@ function App() {
                 path="/"
                 element={<Home />}
             />
-            {/*
             <Route
                 path="/portfolio"
                 element={<Portfolio />}
             />
 
+{/*
             <Route
                 path="/portfolio/:slug"
                 element={<ProjectDetails />}
-            />*/}
-
+            />*/
+}
         </Route>
 
     </Routes>

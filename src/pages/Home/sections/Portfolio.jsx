@@ -1,4 +1,4 @@
-export function Projects() {
+export function Portfolio() {
     return(<>
     <section id="portfolio-roadmap">
 
