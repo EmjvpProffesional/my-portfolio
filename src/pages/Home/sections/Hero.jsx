@@ -33,7 +33,7 @@ export function Hero() {
                 <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
 
                     <Link
-                        to="#projects"
+                        to="/portfolio"
                         className="rounded-lg bg-violet-600 px-6 py-3 font-medium text-white hover:bg-violet-500"
                     >
                         View Portfolio

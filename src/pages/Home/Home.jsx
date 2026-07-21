@@ -1,7 +1,6 @@
 import { Hero } from "./sections/Hero";
 import { Portfolio } from "./sections/Portfolio";
 import { Skills } from "./sections/Skills";
-import { Experience } from "./sections/Experience";
 import { About } from "./sections/About";
 import { Contact } from "./sections/Contact";
 
@@ -23,10 +22,9 @@ export function Home() {
       */}
         <Hero />
         <Skills />
-        {/*
         <About />
-        <Experience />
-        <Contact /> */}
+        <Contact />
+        
     </>
   )
 }

@@ -3,7 +3,6 @@ import { Home } from './pages/Home/Home';
 import { Portfolio } from './pages/Home/sections/Portfolio';
 import { Routes, Route } from "react-router";
 import { MainLayout } from './Layouts/MainLayout';
-import { Experience } from './pages/Home/sections/Experience';
 import { Contact } from './pages/Home/sections/Contact';
 import { About } from './pages/Home/sections/About';
 

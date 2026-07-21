@@ -19,12 +19,11 @@ const user = {
 }
 
 const navigation = [
-  { name: "Home", href: "/#hero", current: false},
-  { name: "Skills", href: "/#skills", current: false},
-  { name: "About", href: "/#about", current: false},
-  { name: "Experience", href: "/#experience", current: false},
-  { name: "Contact", href: "/#contact", current: false},
-  { name: "Portfolio", href: "/portfolio", current: false},
+  { name: "Home", href: "/#hero"},
+  { name: "Skills", href: "/#skills"},
+  { name: "About", href: "/#about"},
+  { name: "Contact", href: "/#contact"},
+  { name: "Portfolio", href: "/portfolio"},
 ]
 
 function classNames(...classes) {
