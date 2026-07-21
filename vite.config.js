@@ -10,5 +10,5 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] }),
     tailwindcss()
   ],
-  base: '/', // Github config
+  base: '/', // Config para publicar el proyecto
 })
