@@ -1,12 +1,11 @@
-import { Hero } from "./sections/Hero";
-import { Portfolio } from "./sections/Portfolio";
-import { Skills } from "./sections/Skills";
-import { Experience } from "./sections/Experience";
-import { About } from "./sections/About";
-import { Contact } from "./sections/Contact";
+import { Hero } from "../pages/Home/sections/Hero";
+import { Skills } from "../pages/Home/sections/Skills";
+import { About } from "../pages/Home/sections/About";
+import { Contact } from "../pages/Home/sections/Contact";
 
 
 export function Home() {
+  
   return (
     <>
       {/*
@@ -17,14 +16,10 @@ export function Home() {
         <body class="h-full">
 
         ```
-
-        TODO: centrar sección hero
-        TODO: Suavizar la transición entre secciones.
       */}
         <Hero />
         <Skills />
         <About />
-        <Experience />
         <Contact />
     </>
   )

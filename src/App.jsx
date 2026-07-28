@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import { Home } from './pages/Home/Home';
 import { Portfolio } from './pages/Home/sections/Portfolio';
-import { Routes, Route } from "react-router";
+import { Routes, Route } from "react-router-dom";
 import { MainLayout } from './Layouts/MainLayout';
 import { Contact } from './pages/Home/sections/Contact';
 import { About } from './pages/Home/sections/About';
+import { Home } from './components/Home';
 
 function App() {
 

@@ -1,4 +1,14 @@
+import { useEffect } from "react";
+
 export function Portfolio() {
+
+    useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", 
+    });
+    }, []);
+
     return(<>
     <section id="portfolio-roadmap">
 
