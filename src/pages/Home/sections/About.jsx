@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import navLogo from "../../../assets/EVLogo.png";
 
 export function About() {
     return (
@@ -16,7 +17,7 @@ export function About() {
                         <div className="flex h-80 w-80 items-center justify-center rounded-full border border-slate-800 bg-slate-900">
 
                             <span className="text-7xl font-bold text-violet-400">
-                                EV
+                                <img src={navLogo} alt="Logo" />
                             </span>
 
                         </div>

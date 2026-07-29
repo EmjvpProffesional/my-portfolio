@@ -33,8 +33,6 @@ function classNames(...classes) {
 
 export function Navbar() {
 
-
-  // TODO: hacer que el nabvar ocupe todo el ancho de la pantalla
     return (
       <header className="sticky top-0 z-50 w-full bg-slate-950/80 backdrop-blur">
         <Disclosure as="nav" className="bg-gray-800/50">
