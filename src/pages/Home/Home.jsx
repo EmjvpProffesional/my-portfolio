@@ -1,31 +1,17 @@
-import { Hero } from "./sections/Hero";
-import { Portfolio } from "./sections/Portfolio";
 import { Skills } from "./sections/Skills";
+import { Experience } from "./sections/Experience";
 import { About } from "./sections/About";
 import { Contact } from "./sections/Contact";
-
+import { Hero } from "./sections/Hero";
 
 export function Home() {
   return (
-    <>
-      {/*
-        This example requires updating your template:
-
-        ```
-        <html class="h-full bg-gray-900">
-        <body class="h-full">
-
-        ```
-
-        TODO: centrar sección hero
-        TODO: Suavizar la transición entre secciones.
-      */}
-        <Hero />
-        <Skills />
-        <About />
-        <Contact />
-        
-    </>
-  )
+    <div className="bg-slate-950 text-slate-100">
+      <Hero />
+      <Skills />
+      <About />
+      <Experience />
+      <Contact />
+    </div>
+  );
 }
-
