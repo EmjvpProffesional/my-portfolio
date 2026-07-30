@@ -21,7 +21,7 @@ export function Contact() {
                         Let's Build Something Together
                     </h2>
 
-                    <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-slate-400">
+                    <p className="mx-auto mt-6 text-lg leading-8 text-slate-400">
                         I'm always interested in discussing new opportunities,
                         backend development, and challenging software projects.
                         Feel free to reach out through any of the following

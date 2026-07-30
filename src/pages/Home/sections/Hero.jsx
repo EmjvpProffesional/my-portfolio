@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 export function Hero() {
     
     return (
-        <section
-            id="hero"
-            className="flex min-h-screen items-center"
-        >
+      <section
+        id="hero"
+        className="mx-auto flex min-h-screen max-w-7xl items-center px-6"
+      >
             <div className="mx-auto w-full max-w-7xl px-6">
                 <div className="mx-auto max-w-2xl text-center">
                 <span className="rounded-full bg-violet-500/10 px-4 py-2 text-sm font-semibold text-violet-400">
